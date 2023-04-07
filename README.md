@@ -27,3 +27,9 @@ THEN the password is either displayed in an alert or written to the page
 The goal of this project is to add a function to preexisting code. When the "Generate Password" button is pressed, a prompt pops up asking for a password length from 1 to 128. If the user inputs something outside the range or something that wasn't a numerical value, then the function ends and gives a message. If the input is valid, then 4 confirm prompts are asked for if we would like to include lowercase letters, uppercase letters, numbers, or special characters. If the user says no for all options, function ends and give a message. If at least one choice was accepted, the function loops the chosen length and randomly chooses a character from the accepted characters. The string is passed and displayed on the html.
 
 ## Usage
+The applications can be accessed via https://namhn123.github.io/challenge-3/
+
+![application at start](./assets/images/pic0.png)
+![application when pressed](./assets/images/pic1.png)
+![application with error](./assets/images/pic2.png)
+![application with 15 length password](./assets/images/pic3.png)
